@@ -1,0 +1,213 @@
+{
+    "chapter": [{
+        "ATA_Chapter_No": "ATA 01",
+        "ATA_Chapter_Name": "Reserved for Airline Use"
+    }, {
+        "ATA_Chapter_No": "ATA 02",
+        "ATA_Chapter_Name": "Reserved for Airline Use"
+    }, {
+        "ATA_Chapter_No": "ATA 03",
+        "ATA_Chapter_Name": "Reserved for Airline Use"
+    }, {
+        "ATA_Chapter_No": "ATA 04",
+        "ATA_Chapter_Name": "Reserved for Airline Use"
+    }, {
+        "ATA_Chapter_No": "ATA 05",
+        "ATA_Chapter_Name": "TIME LIMITS/MAINTENANCE CHECKS"
+    }, {
+        "ATA_Chapter_No": "ATA 06",
+        "ATA_Chapter_Name": "DIMENSIONS AND AREAS"
+    }, {
+        "ATA_Chapter_No": "ATA 07",
+        "ATA_Chapter_Name": "LIFTING AND SHORING"
+    }, {
+        "ATA_Chapter_No": "ATA 08",
+        "ATA_Chapter_Name": "LEVELING AND WEIGHING."
+    }, {
+        "ATA_Chapter_No": "ATA 09",
+        "ATA_Chapter_Name": "TOWING AND TAXI"
+    }, {
+        "ATA_Chapter_No": "ATA 10",
+        "ATA_Chapter_Name": "PARKING, MOORING, STORAGE AND RETURN TO SERVICE"
+    }, {
+        "ATA_Chapter_No": "ATA 11",
+        "ATA_Chapter_Name": "PLACARDS AND MARKINGS"
+    }, {
+        "ATA_Chapter_No": "ATA 12",
+        "ATA_Chapter_Name": "SERVICING - ROUTINE MAINTENANCE"
+    }, {
+        "ATA_Chapter_No": "ATA 18",
+        "ATA_Chapter_Name": "VIBRATION AND NOISE ANALYSIS (HELICOPTER ONLY)"
+    }, {
+        "ATA_Chapter_No": "ATA 89",
+        "ATA_Chapter_Name": "FLIGHT TEST INSTALLATION"
+    }, {
+        "ATA_Chapter_No": "ATA 20",
+        "ATA_Chapter_Name": "STANDARD PRACTICES - AIRFRAME"
+    }, {
+        "ATA_Chapter_No": "ATA 21",
+        "ATA_Chapter_Name": "AIR CONDITIONING AND PRESSURIZATION"
+    }, {
+        "ATA_Chapter_No": "ATA 22",
+        "ATA_Chapter_Name": "AUTO FLIGHT"
+    }, {
+        "ATA_Chapter_No": "ATA 23",
+        "ATA_Chapter_Name": "COMMUNICATIONS"
+    }, {
+        "ATA_Chapter_No": "ATA 24",
+        "ATA_Chapter_Name": "ELECTRICAL POWER"
+    }, {
+        "ATA_Chapter_No": "ATA 25",
+        "ATA_Chapter_Name": "EQUIPMENT/FURNISHINGS"
+    }, {
+        "ATA_Chapter_No": "ATA 26",
+        "ATA_Chapter_Name": "FIRE PROTECTION"
+    }, {
+        "ATA_Chapter_No": "ATA 27",
+        "ATA_Chapter_Name": "FLIGHT CONTROLS"
+    }, {
+        "ATA_Chapter_No": "ATA 28",
+        "ATA_Chapter_Name": "FUEL"
+    }, {
+        "ATA_Chapter_No": "ATA 29",
+        "ATA_Chapter_Name": "HYDRAULIC POWER"
+    }, {
+        "ATA_Chapter_No": "ATA 30",
+        "ATA_Chapter_Name": "ICE AND RAIN PROTECTION"
+    }, {
+        "ATA_Chapter_No": "ATA 31",
+        "ATA_Chapter_Name": "INDICATING / RECORDING SYSTEM"
+    }, {
+        "ATA_Chapter_No": "ATA 32",
+        "ATA_Chapter_Name": "LANDING GEAR"
+    }, {
+        "ATA_Chapter_No": "ATA 33",
+        "ATA_Chapter_Name": "LIGHTS"
+    }, {
+        "ATA_Chapter_No": "ATA 34",
+        "ATA_Chapter_Name": "NAVIGATION"
+    }, {
+        "ATA_Chapter_No": "ATA 35",
+        "ATA_Chapter_Name": "OXYGEN"
+    }, {
+        "ATA_Chapter_No": "ATA 36",
+        "ATA_Chapter_Name": "PNEUMATIC"
+    }, {
+        "ATA_Chapter_No": "ATA 37",
+        "ATA_Chapter_Name": "VACUUM"
+    }, {
+        "ATA_Chapter_No": "ATA 38",
+        "ATA_Chapter_Name": "WATER/WASTE"
+    }, {
+        "ATA_Chapter_No": "ATA 39",
+        "ATA_Chapter_Name": "ELECTRICAL - ELECTRONIC PANELS AND MULTIPURPOSE COMPONENTS"
+    }, {
+        "ATA_Chapter_No": "ATA 40",
+        "ATA_Chapter_Name": "MULTISYSTEM"
+    }, {
+        "ATA_Chapter_No": "ATA 41",
+        "ATA_Chapter_Name": "WATER BALLAST"
+    }, {
+        "ATA_Chapter_No": "ATA 42",
+        "ATA_Chapter_Name": "INTEGRATED MODULAR AVIONICS"
+    }, {
+        "ATA_Chapter_No": "ATA 44",
+        "ATA_Chapter_Name": "CABIN SYSTEMS"
+    }, {
+        "ATA_Chapter_No": "ATA 45",
+        "ATA_Chapter_Name": "DIAGNOSTIC AND MAINTENANCE SYSTEM"
+    }, {
+        "ATA_Chapter_No": "ATA 46",
+        "ATA_Chapter_Name": "INFORMATION SYSTEMS"
+    }, {
+        "ATA_Chapter_No": "ATA 47",
+        "ATA_Chapter_Name": "NITROGEN GENERATION SYSTEM"
+    }, {
+        "ATA_Chapter_No": "ATA 48",
+        "ATA_Chapter_Name": "IN FLIGHT FUEL DISPENSING"
+    }, {
+        "ATA_Chapter_No": "ATA 49",
+        "ATA_Chapter_Name": "AIRBORNE AUXILIARY POWER"
+    }, {
+        "ATA_Chapter_No": "ATA 50",
+        "ATA_Chapter_Name": "CARGO AND ACCESSORY COMPARTMENTS"
+    }, {
+        "ATA_Chapter_No": "ATA 51",
+        "ATA_Chapter_Name": "STANDARD PRACTICES AND STRUCTURES - GENERAL"
+    }, {
+        "ATA_Chapter_No": "ATA 52",
+        "ATA_Chapter_Name": "DOORS"
+    }, {
+        "ATA_Chapter_No": "ATA 53",
+        "ATA_Chapter_Name": "FUSELAGE"
+    }, {
+        "ATA_Chapter_No": "ATA 54",
+        "ATA_Chapter_Name": "NACELLES/PYLONS"
+    }, {
+        "ATA_Chapter_No": "ATA 55",
+        "ATA_Chapter_Name": "STABILIZERS"
+    }, {
+        "ATA_Chapter_No": "ATA 56",
+        "ATA_Chapter_Name": "WINDOWS"
+    }, {
+        "ATA_Chapter_No": "ATA 57",
+        "ATA_Chapter_Name": "WINGS"
+    }, {
+        "ATA_Chapter_No": "ATA 61",
+        "ATA_Chapter_Name": "PROPELLERS"
+    }, {
+        "ATA_Chapter_No": "ATA 70",
+        "ATA_Chapter_Name": "STANDARD PRACTICES ENGINE"
+    }, {
+        "ATA_Chapter_No": "ATA 71",
+        "ATA_Chapter_Name": "POWER PLANT"
+    }, {
+        "ATA_Chapter_No": "ATA 72",
+        "ATA_Chapter_Name": "ENGINE - RECIPROCATING"
+    }, {
+        "ATA_Chapter_No": "ATA 73",
+        "ATA_Chapter_Name": "ENGINE - FUEL AND CONTROL"
+    }, {
+        "ATA_Chapter_No": "ATA 74",
+        "ATA_Chapter_Name": "IGNITION"
+    }, {
+        "ATA_Chapter_No": "ATA 75",
+        "ATA_Chapter_Name": "BLEED AIR"
+    }, {
+        "ATA_Chapter_No": "ATA 76",
+        "ATA_Chapter_Name": "ENGINE CONTROLS"
+    }, {
+        "ATA_Chapter_No": "ATA 77",
+        "ATA_Chapter_Name": "ENGINE INDICATING"
+    }, {
+        "ATA_Chapter_No": "ATA 78",
+        "ATA_Chapter_Name": "EXHAUST"
+    }, {
+        "ATA_Chapter_No": "ATA 79",
+        "ATA_Chapter_Name": "OIL"
+    }, {
+        "ATA_Chapter_No": "ATA 80",
+        "ATA_Chapter_Name": "STARTING"
+    }, {
+        "ATA_Chapter_No": "ATA 81",
+        "ATA_Chapter_Name": "TURBINES (RECIPROCATING ENGINES)"
+    }, {
+        "ATA_Chapter_No": "ATA 82",
+        "ATA_Chapter_Name": "ENGINE WATER INJECTION"
+    }, {
+        "ATA_Chapter_No": "ATA 83",
+        "ATA_Chapter_Name": "ACCESSORY GEARBOXES"
+    }, {
+        "ATA_Chapter_No": "ATA 84",
+        "ATA_Chapter_Name": "PROPULSION AUGMENTATION"
+    }, {
+        "ATA_Chapter_No": "ATA 85",
+        "ATA_Chapter_Name": "FUEL CELL SYSTEMS"
+    }, {
+        "ATA_Chapter_No": "ATA 91",
+        "ATA_Chapter_Name": "CHARTS"
+    }, {
+        "ATA_Chapter_No": "ATA 92",
+        "ATA_Chapter_Name": "Electrical System Installation"
+    }]
+}

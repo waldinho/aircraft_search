@@ -1,0 +1,802 @@
+[
+  {
+    "Aircraft": "Aero Vodochody",
+    "Aircraft_Type": "L-159"
+  },
+  {
+    "Aircraft": "Aero Vodochody",
+    "Aircraft_Type": "L-39"
+  },
+  {
+    "Aircraft": "A.S.T.A.",
+    "Aircraft_Type": "Nomad-N24"
+  },
+  {
+    "Aircraft": "Aerospatiale Aeron.",
+    "Aircraft_Type": 262
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": 212
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A300"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A310"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A318"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A319"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A320"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A321"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A330"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A340"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "A380"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "C-295"
+  },
+  {
+    "Aircraft": "AIRBUS",
+    "Aircraft_Type": "TB"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-12"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-124"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-125"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-140"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-148"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-2"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-225"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-24"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-26"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-28"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-3"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-30"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-32"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-38"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-72"
+  },
+  {
+    "Aircraft": "Antonov",
+    "Aircraft_Type": "An-74"
+  },
+  {
+    "Aircraft": "ATR",
+    "Aircraft_Type": "ATR 42"
+  },
+  {
+    "Aircraft": "ATR",
+    "Aircraft_Type": "ATR 72"
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": 146
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": 748
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": "ATP"
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": "Jetstream"
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": "Jetstream 31"
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": "Jetstream 41"
+  },
+  {
+    "Aircraft": "BAE Systems",
+    "Aircraft_Type": "RJ Avroliner"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 707
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 717
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 727
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 737
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 747
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 757
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 767
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 777
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": 787
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "DC-10"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "DC-3"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "DC-7"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "DC-8"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "DC-9"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD-11"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD-80"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD-82"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD-83"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD-87"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD80"
+  },
+  {
+    "Aircraft": "Boeing",
+    "Aircraft_Type": "MD90"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": 330
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": 360
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Challenger"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CL-601"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CL-604"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CRJ Regional Jet"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CRJ1000 Regional Jet"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CRJ700 Regional Jet"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "CRJ900 Regional Jet"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Cseries"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Dash 7"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Dash 8"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "DHC-2"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "DHC-3"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "DHC-4"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "DHC-6 Twin Otter"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Global"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "Learjet"
+  },
+  {
+    "Aircraft": "Bombardier",
+    "Aircraft_Type": "SC.7"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 152
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 162
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 172
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 182
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 185
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 206
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 207
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 208
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 340
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 402
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 404
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 414
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 421
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": 441
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "500 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "501 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "525 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "550 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "560 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "650 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "670 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "680 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "750 Citation"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "Caravan"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "Cessna"
+  },
+  {
+    "Aircraft": "Cessna",
+    "Aircraft_Type": "Skymaster"
+  },
+  {
+    "Aircraft": "Convair",
+    "Aircraft_Type": 580
+  },
+  {
+    "Aircraft": "Convair",
+    "Aircraft_Type": 600
+  },
+  {
+    "Aircraft": "Convair",
+    "Aircraft_Type": 640
+  },
+  {
+    "Aircraft": "Dassault",
+    "Aircraft_Type": "Falcon"
+  },
+  {
+    "Aircraft": "Dornier",
+    "Aircraft_Type": 228
+  },
+  {
+    "Aircraft": "Dornier",
+    "Aircraft_Type": 328
+  },
+  {
+    "Aircraft": "Dornier",
+    "Aircraft_Type": "Dornier"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": 170
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": 175
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": 190
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": 195
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "EMB-110"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "EMB-120"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "ERJ-135"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "ERJ-140"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "ERJ-145"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "ERJ170"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "Legacy"
+  },
+  {
+    "Aircraft": "Embraer",
+    "Aircraft_Type": "Phenom"
+  },
+  {
+    "Aircraft": "Evektor-Aerotechnik",
+    "Aircraft_Type": "EV-97"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": 228
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": 328
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "328JET"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "F-27"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "Metro"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "SA-226/7"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "SA227"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "SF"
+  },
+  {
+    "Aircraft": "Fairchild",
+    "Aircraft_Type": "Swearingen"
+  },
+  {
+    "Aircraft": "Fokker",
+    "Aircraft_Type": 100
+  },
+  {
+    "Aircraft": "Fokker",
+    "Aircraft_Type": 50
+  },
+  {
+    "Aircraft": "Fokker",
+    "Aircraft_Type": 70
+  },
+  {
+    "Aircraft": "Fokker",
+    "Aircraft_Type": "F.27"
+  },
+  {
+    "Aircraft": "Fokker",
+    "Aircraft_Type": "F.28"
+  },
+  {
+    "Aircraft": "Gulfstream",
+    "Aircraft_Type": "G"
+  },
+  {
+    "Aircraft": "Gulfstream",
+    "Aircraft_Type": "G100"
+  },
+  {
+    "Aircraft": "Gulfstream",
+    "Aircraft_Type": "Gulfstream"
+  },
+  {
+    "Aircraft": "Harbin",
+    "Aircraft_Type": "ERJ"
+  },
+  {
+    "Aircraft": "Harbin",
+    "Aircraft_Type": "Y-12"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 125
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 1900
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 400
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 700
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 750
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 800
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 900
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": 99
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "Airliner"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "Baron"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "Hawker"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "King"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "Premier"
+  },
+  {
+    "Aircraft": "Hawker Beechcraft",
+    "Aircraft_Type": "Super"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-114"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-18"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-62"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-76"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-86"
+  },
+  {
+    "Aircraft": "Ilyushin",
+    "Aircraft_Type": "II-96"
+  },
+  {
+    "Aircraft": "Indonesian Aerospace",
+    "Aircraft_Type": 212
+  },
+  {
+    "Aircraft": "Indonesian Aerospace",
+    "Aircraft_Type": "CN-235"
+  },
+  {
+    "Aircraft": "LET Aircraft",
+    "Aircraft_Type": "Let L-410"
+  },
+  {
+    "Aircraft": "Lockheed Martin",
+    "Aircraft_Type": "C-130"
+  },
+  {
+    "Aircraft": "Lockheed Martin",
+    "Aircraft_Type": "Hercules-L-100"
+  },
+  {
+    "Aircraft": "Lockheed Martin",
+    "Aircraft_Type": "L-1011"
+  },
+  {
+    "Aircraft": "Lockheed Martin",
+    "Aircraft_Type": "L-188"
+  },
+  {
+    "Aircraft": "Lockheed Martin",
+    "Aircraft_Type": "L-382G"
+  },
+  {
+    "Aircraft": "NAMC",
+    "Aircraft_Type": "YS-11"
+  },
+  {
+    "Aircraft": "Pilatus Aircraft",
+    "Aircraft_Type": "PC"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-18"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-23"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-24"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-28"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-31"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-34"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-42"
+  },
+  {
+    "Aircraft": "Piper Aircraft",
+    "Aircraft_Type": "PA-46"
+  },
+  {
+    "Aircraft": "Rockwell Collins",
+    "Aircraft_Type": "Sabreliner"
+  },
+  {
+    "Aircraft": "Saab",
+    "Aircraft_Type": 2000
+  },
+  {
+    "Aircraft": "Saab",
+    "Aircraft_Type": 340
+  },
+  {
+    "Aircraft": "Saab",
+    "Aircraft_Type": "JAS-39"
+  },
+  {
+    "Aircraft": "Short Brothers",
+    "Aircraft_Type": "Short"
+  },
+  {
+    "Aircraft": "Sikorsky",
+    "Aircraft_Type": "Sikorsky"
+  },
+  {
+    "Aircraft": "Sukhoi",
+    "Aircraft_Type": "Superjet 100"
+  },
+  {
+    "Aircraft": "Tupolev",
+    "Aircraft_Type": "Tu-134"
+  },
+  {
+    "Aircraft": "Tupolev",
+    "Aircraft_Type": "Tu-154"
+  },
+  {
+    "Aircraft": "Tupolev",
+    "Aircraft_Type": "Tu-204"
+  },
+  {
+    "Aircraft": "Tupolev",
+    "Aircraft_Type": "Tu-334"
+  },
+  {
+    "Aircraft": "WSK PZL",
+    "Aircraft_Type": "Mielec An-28"
+  },
+  {
+    "Aircraft": "Xi'an Aircraft",
+    "Aircraft_Type": "MA60"
+  },
+  {
+    "Aircraft": "Yakovlev",
+    "Aircraft_Type": "Yak-40"
+  },
+  {
+    "Aircraft": "Yakovlev",
+    "Aircraft_Type": "Yak-42"
+  },
+  {
+    "Aircraft": "ZLIN AIRCRAFT",
+    "Aircraft_Type": "Z-142C",
+  }
+]

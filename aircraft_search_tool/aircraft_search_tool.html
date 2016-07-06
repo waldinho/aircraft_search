@@ -1,0 +1,381 @@
+<style>
+a {
+    text-decoration: none;
+    color: #333
+}
+
+fieldset {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    border: 1px solid #999;
+    padding: 0 25px;
+    font-family: "Helvetica neue", Helvetica, Arial, "sans-serif";
+    color: #333;
+    border-radius: 5px;
+    height: 420px !important;
+    width: 920px;
+    background-color: #fff;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+#content h1 {
+    font-weight: 300;
+}
+
+#_nkw {
+    width: 71%;
+    height: 37px;
+    color: #999;
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+#_sasl {
+    width: 34%;
+    height: 37px;
+    color: #999;
+    padding: 0 0 0 10px;
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+#search_button_tyre {
+    color: #fff;
+    background: #00509d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0079bc), to(#00509d));
+    height: 37px;
+    width: 9%;
+    border: 0;
+    font-size: 16px;
+    margin: 30px 0 0 25px;
+}
+
+.row {
+    padding: 0 0 30px 0;
+    font-size: 12px;
+}
+
+.tyrebottomrow {
+    padding: 0 0 55px 0;
+    font-size: 12px;
+    width: 25%;
+    float: left;
+}
+
+.column {
+    margin-right: 40px;
+    padding: 20px 0 0px 0;
+}
+
+.tyretype {
+    margin: 0 20px 10px 0;
+    width: 25%;
+}
+
+.brand {
+    margin: 0 20px 10px 0;
+    width: 25%;
+}
+
+.speed {
+    margin: 0 20px 10px 0;
+    width: 25%;
+}
+
+.tyretype {
+    width: 100%;
+    margin: 10px 10px 0 0;
+    background: #fff;
+}
+
+.brand {
+    width: 100%;
+    margin: 10px 10px 0 0;
+    background: #fff;
+}
+
+.speed {
+    width: 100%;
+    margin: 10px 10px 0 0;
+    background: #fff;
+}
+
+.left {
+    width: 22%;
+    float: left;
+    margin: 10px 24px 0 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.category {
+    margin: 0px;
+    width: 25%;
+    float: left;
+}
+
+.category-drop {
+    border-radius: 0px !important;
+    height: 37px;
+    margin: 0px;
+    width: 100%;
+    background: #fff;
+    -webkit-appearance: none;
+    padding-left: 10px;
+    color: #999;
+    border: 1px solid #D4D4D4;
+    background: url('./img/arrow.png') no-repeat right 12px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {
+        height: 25px;
+        line-height: 30px;
+        background: #f1f1f1;
+        margin: 0 0 10px 20px;
+    }
+}
+
+
+}
+@-moz-document url-prefix() {
+    select {
+        padding: 3px 0!important;
+        border-radius: 5px;
+    }
+}
+@media screen\0 {
+    select {
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<!-- <script type="text/javascript" src="./js/main.js"></script> -->
+<!--==============================================URL's==============================================-->
+<script>
+var url = '../aircraft_search_tool/js/make_model.json';
+var urlChapter = "../aircraft_search_tool/js/chapters.json";
+var urlCountries = "../aircraft_search_tool/js/countries.json";
+var urlCert = "../aircraft_search_tool/js/certification.json";
+var urlCond = "../aircraft_search_tool/js/condition.json";
+var urlTt = "../aircraft_search_tool/js/tag_tooling.json";
+</script>
+<!--===========================================TEMPLATES's===========================================-->
+<script id="tpl" type="text/template">
+    <option value="" data-param="">Aircraft Type</option>
+    {{#data}}
+    <option value="{{Aircraft}}">{{Aircraft}} {{Aircraft_Type}}</option>
+    {{/data}}
+</script>
+<script id="tplChapter" type="text/template">
+    <option value="" data-param="">ATA Chapter</option>
+    {{#chapter}}
+    <option value="{{ATA_Chapter_No}}">{{ATA_Chapter_No}} - {{ATA_Chapter_Name}}</option>
+    {{/chapter}}
+</script>
+<script id="tplCountries" type="text/template">
+    <option value="" data-param="">Countries</option>
+    {{#countries}}
+    <option value="{{name}}">{{name}}</option>
+    {{/countries}}
+</script>
+<script id="tplCert" type="text/template">
+    <option value="" data-param="">Certification</option>
+    {{#cert}}
+    <option value="{{Certification}}">{{Certification}}</option>
+    {{/cert}}
+</script>
+<script id="tplCond" type="text/template">
+    <option value="" data-param="">Condition</option>
+    {{#cond}}
+    <option value="{{Value}}">{{Condition}}</option>
+    {{/cond}}
+</script>
+<script id="tplTt" type="text/template">
+    <option value="" data-param="">Oldest Tag Date</option>
+    {{#data2}}
+    <option value="{{Oldest_Tag_Date}}">{{Oldest_Tag_Date}}</option>
+    {{/data2}}
+</script>
+<script id="tplTool" type="text/template">
+    <option value="" data-param="">Rotable/Consumable/Tooling</option>
+    {{#data2}}
+    <option value="{{Rotable_Consumable_Tooling}}">{{Rotable_Consumable_Tooling}}</option>
+    {{/data2}}
+</script>
+<!--===========================================FUNCTION's===========================================-->
+<script>
+var slingshot = function(url, tplId, anchor) {
+    $.getJSON(url, function(data) {
+        var template = $(tplId).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchor).append(stone);
+    });
+}
+
+slingshot('../aircraft_search_tool/js/make_model.json', '#tpl', '#anchor');
+
+var slingshotChapter = function(urlChapter, tplChapter, anchorChapter) {
+    $.getJSON(urlChapter, function(data) {
+        var template = $(tplChapter).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorChapter).append(stone);
+    });
+}
+
+slingshotChapter('../aircraft_search_tool/js/chapters.json', '#tplChapter', '#anchorChapter');
+
+var slingshotCountries = function(urlCountries, tplCountries, anchorCountries) {
+    $.getJSON(urlCountries, function(data) {
+        var template = $(tplCountries).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorCountries).append(stone);
+    });
+}
+
+slingshotCountries('../aircraft_search_tool/js/countries.json', '#tplCountries', '#anchorCountries');
+
+var slingshotCert = function(urlCert, tplCert, anchorCert) {
+    $.getJSON(urlCert, function(data) {
+        var template = $(tplCert).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorCert).append(stone);
+    });
+}
+
+slingshotCert('../aircraft_search_tool/js/certification.json', '#tplCert', '#anchorCert');
+
+var slingshotCond = function(urlCond, tplCond, anchorCond) {
+    $.getJSON(urlCond, function(data) {
+        var template = $(tplCond).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorCond).append(stone);
+    });
+}
+
+slingshotCond('../aircraft_search_tool/js/condition.json', '#tplCond', '#anchorCond');
+
+var slingshotTt = function(urlTt, tplTt, anchorTt) {
+    $.getJSON(urlTt, function(data) {
+        var template = $(tplTt).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorTt).append(stone);
+    });
+}
+
+slingshotTt('../aircraft_search_tool/js/tag_tooling.json', '#tplTt', '#anchorTt');
+
+var slingshotTool = function(urlTt, tplTool, anchorTool) {
+    $.getJSON(urlTt, function(data) {
+        var template = $(tplTool).html();
+        var stone = Handlebars.compile(template)(data);
+        $(anchorTool).append(stone);
+    });
+}
+
+slingshotTool('../aircraft_search_tool/js/tag_tooling.json', '#tplTool', '#anchorTool');
+</script>
+<!--==============================================END==============================================-->
+<div id="content">
+    <h1>
+      What are you searching for?
+    </h1>
+    <form id="gh-f" method="get" action="http://www.ebay.co.uk/sch/Aircraft-Parts-Accessories/169484/i.html">
+        <!-- <input name="_nkw" value="" type="hidden" />
+        <input name="_osacat" value="179680" type="hidden" />
+        <input type="hidden" value="R40" name="_from">
+        <input type="hidden" name="_trksid" value="m570.l1313"> -->
+        <div class="row">
+            <input aria-labelledby="kw_lengend" type="text" name="_nkw" id="_nkw" size="50" maxlength="300" value='' placeholder="Optional: Insert your search item. For example, part number, description, Aircraft_Type etc." class="search">
+            <div class="category">
+                <select class="category-drop" name="category" id="e1-242">
+                    <option value="" data-param="">Aircraft Parts &amp; Accesories</option>
+                </select>
+            </div>
+        </div>
+        <div class="clear" />
+        <div class="row">
+            <div class="left">
+                <select id="anchor" class="brand" name="Brand">Aircraft Type</select>
+            </div>
+            <div class="left">
+                <select id="anchorChapter" class="brand" name="Chapter">ATA Chapter</select>
+            </div>
+            <div class="left">
+                <select name="Speed%20Rating" id="e1-246" class="speed">
+                    <option value="" data-param="">OEM</option>
+                </select>
+            </div>
+            <div class="left">
+                <select name="_salic" id="anchorCountries" class="speed">Country Location</select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <select class="tyretype" name="Certification" id="anchorCert">Certification</select>
+            </div>
+            <div class="left">
+                <select class="brand" name="LH_ItemCondition" id="anchorCond">Condition</select>
+            </div>
+            <div class="left">
+                <select name="Oldest Tag Date" id="anchorTt" class="speed">Oldest Tag Date</select>
+            </div>
+            <div class="left">
+                <select name="Rotable / Consumable / Tooling" id="anchorTool" class="speed">Rotable / Consumable / Tooling</select>
+            </div>
+        </div>
+        <h1 style="padding:50px 0 0 0;">
+          Additional search filters
+        </h1>
+        <div class="tyrebottomrow">
+            <!--<div class="column">
+                    <input id="top_seller" class="top_seller" name="top_seller" type="checkbox" value="" />
+                    <img src="./top-rated.png" class="medal" />eBay Top-rated seller
+            </div>-->
+            <div class="column">
+                <fieldset>
+                    <label for="LH_BIN">
+                        <input type="checkbox" id="LH_BIN" name="LH_BIN" value="1" class="buy_now"> Buy it now</label>
+                </fieldset>
+            </div>
+            <div class="column">
+                <fieldset>
+                    <label for="LH_BIN">
+                        <input type="checkbox" id="LH_BIN" name="LH_BIN" value="1" class="buy_now"> Buy it now</label>
+                </fieldset>
+            </div>
+        </div>
+        <div class="tyrebottomrow">
+            <div class="column">
+                <fieldset class="checkbox-set">
+                    <label for="LH_ItemConditionNew">
+                        <input type="checkbox" id="LH_ItemConditionNew" name="LH_ItemCondition" value="3" class="new"> Condition: New
+                    </label>
+                </fieldset>
+            </div>
+            <div class="column">
+                <fieldset class="checkbox-set nested">
+                    <label for="LH_FS">
+                        <input type="checkbox" id="LH_FS" name="LH_FS" value="1"> eBay Plus</label>
+                </fieldset>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <input aria-labelledby="kw_lengend" type="text" name="_sasl" id="_sasl" size="50" maxlength="300" value='' placeholder="Name specific seller (Optional)" class="search">
+        <a href="javascript:;">
+            <input id="search_button_tyre" type="submit" value="Search" />
+        </a>
+    </form>
+</div>

@@ -1,0 +1,29 @@
+{
+    "cond": [{
+        "Condition": "AS REMOVED (AR)",
+        "Value": "3000"
+    }, {
+        "Condition": "SERVICEABLE (SV)",
+        "Value": "7000"
+    }, {
+        "Condition": "REPAIRED (RP)",
+        "Value": "7000"
+    }, {
+        "Condition": "OVERHAUL (OH)"
+    }, {
+        "Condition": "FACTORY NEW (FN)",
+        "Value": "1500"
+    }, {
+        "Condition": "NEW (NE)",
+        "Value": "1000"
+    }, {
+        "Condition": "NEW SURPLUS (NS)",
+        "Value": "1500"
+    }, {
+        "Condition": "INSPECTED  (IN )",
+        "Value": "3000"
+    }, {
+        "Condition": "Repairable (RP)",
+        "Value": "3000"
+    }]
+}
